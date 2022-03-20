@@ -5,6 +5,12 @@
   "main": "index.js",
   "author": "Thiago Nascimento <thiag.g3@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc"
+  },
   "dependencies": {
     "next": "latest",
     "react": "^17.0.2",
