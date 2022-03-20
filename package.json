@@ -11,6 +11,7 @@
 		"start": "next start",
 		"lint": "next lint",
 		"type-check": "tsc",
+		"commit": "git-cz",
 		"precommit": "lint-staged",
 		"prepare": "husky install"
 	},
@@ -27,6 +28,8 @@
 		"@types/react-dom": "^17.0.14",
 		"@typescript-eslint/eslint-plugin": "^5.15.0",
 		"@typescript-eslint/parser": "^5.10.2",
+		"commitizen": "^4.2.4",
+		"cz-conventional-changelog": "3.3.0",
 		"eslint": "^7.32.0",
 		"eslint-config-airbnb": "^19.0.4",
 		"eslint-config-airbnb-typescript": "^16.1.0",
@@ -40,5 +43,10 @@
 		"lint-staged": "^12.3.7",
 		"prettier": "^2.6.0",
 		"typescript": "4.0"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
 	}
 }
