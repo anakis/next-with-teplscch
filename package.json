@@ -1,0 +1,13 @@
+{
+  "name": "next-with-teplscch",
+  "version": "1.0.0",
+  "description": "Next.js example with typescript, eslint, prettier, lint-staged, commitlint, commitizen and husky",
+  "main": "index.js",
+  "author": "Thiago Nascimento <thiag.g3@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
