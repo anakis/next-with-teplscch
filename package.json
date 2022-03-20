@@ -12,7 +12,7 @@
 		"lint": "next lint",
 		"type-check": "tsc",
 		"commit": "git-cz",
-		"precommit": "lint-staged",
+		"lint-staged": "lint-staged",
 		"prepare": "husky install"
 	},
 	"dependencies": {
