@@ -1,6 +1,8 @@
+import Hello from "../components/Hello"
+
 function IndexPage() {
     return (
-        <h1>Hello Next.js 👾</h1>
+        <Hello />
     )
 }
 
